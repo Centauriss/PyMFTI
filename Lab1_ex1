@@ -1,5 +1,6 @@
 #Задание1
-import numpy as np
-x = int(input())
-y = np.cos(x)
-print(y)
+my_list = ['one', 'two', 'three', 'four', 'five']
+my_list_len = len(my_list)
+print(my_list_len)
+for i in range(0, my_list_len):
+    print(my_list[i])
